@@ -6,3 +6,10 @@ def double(input)
 end
 
   puts double(3)
+
+
+  def double(num)
+    return num * 2
+  end
+
+puts double(10)
