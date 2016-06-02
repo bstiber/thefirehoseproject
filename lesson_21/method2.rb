@@ -11,3 +11,6 @@ def multiply(a, b)
   a_multiplied_by_b = a_doubled * b_doubled
 end
 puts multiply(4, 4)
+puts total = multiply(4, 4) + double(4)
+
+puts total
