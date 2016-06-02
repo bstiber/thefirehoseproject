@@ -10,8 +10,8 @@ def like(answer)
     return "Ken does too!"
   elsif answer == "n"
     return "dogs are better:"
-    else answer != "y" || answer != "n"
-      return "you must enter (y or n)"
+  else answer != "y" || answer != "n"
+    return "you must enter (y or n)"
   end
 end
 
