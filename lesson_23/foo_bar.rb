@@ -1,6 +1,6 @@
-#
-# puts"enter a number: "
-# n = gets.chomp.to_i
+
+puts"enter a number: "
+n = gets.chomp.to_i
 
 def is_even(n)
   remainder_divisible_by_two = n % 2
@@ -15,15 +15,16 @@ def is_even(n)
 end
 end
 
-puts is_even(1)
-puts is_even(2)
-puts is_even(3)
-puts is_even(4)
-puts is_even(5)
-puts is_even(6)
-puts is_even(7)
-puts is_even(8)
-puts is_even(9)
-puts is_even(10)
-puts is_even(15)
-puts is_even(15)
+puts is_even(n)
+# puts is_even(1)
+# puts is_even(2)
+# puts is_even(3)
+# puts is_even(4)
+# puts is_even(5)
+# puts is_even(6)
+# puts is_even(7)
+# puts is_even(8)
+# puts is_even(9)
+# puts is_even(10)
+# puts is_even(15)
+# puts is_even(15)
