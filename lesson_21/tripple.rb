@@ -1,4 +1,4 @@
- # using a method times method
+ # using a method plus method
 
 def tripple(num)
    n = num ** num
