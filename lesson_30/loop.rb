@@ -14,3 +14,7 @@ end
 10.times do
   puts "this is printed 10 times"
 end
+
+10.times do |n|
+  puts "#{n+1}. This is printed 10 times: Iteration number #{n+1}."
+end
