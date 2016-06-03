@@ -1,4 +1,4 @@
-#final foobar challenge submission
+#final foobar challenge submission, using stack overflow for reference
 
 puts "Please enter a number:"
 num = gets.chomp.to_i
