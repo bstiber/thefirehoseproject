@@ -1,4 +1,4 @@
-#anther food bar loop challenge practice session, mastering loops and conditionals.
+#another food bar loop challenge practice session, mastering loops and conditionals.
 puts 'enter any number'
 num = gets.chomp.to_i
 
