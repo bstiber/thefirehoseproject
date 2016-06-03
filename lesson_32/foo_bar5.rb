@@ -7,6 +7,7 @@ if num > 100 || num < 1
 end
 
 num.times do |n|
+  n += 1
   r3 = n % 3
   # r3 = remainder_divisible_by_three
   r5 = n % 5
