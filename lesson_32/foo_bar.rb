@@ -1,7 +1,6 @@
 
 puts"enter a number: "
 n = gets.chomp.to_i
-
 def is_even(n)
   remainder_divisible_by_three = n % 3
   remainder_divisible_by_five = n % 5
@@ -13,5 +12,4 @@ def is_even(n)
     puts "#{is_even(n)}"
   end
 end
-
 puts is_even(n)
